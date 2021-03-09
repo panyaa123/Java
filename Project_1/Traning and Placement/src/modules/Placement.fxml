@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.PlacementController">
+   <children>
+      <Pane layoutY="-7.0" prefHeight="570.0" prefWidth="101.0" style="-fx-background-color: #48A5EE;" />
+      <Label layoutX="210.0" layoutY="44.0" prefHeight="69.0" prefWidth="298.0" text="List of Students">
+         <font>
+            <Font name="Calibri Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="210.0" layoutY="149.0" text="Select Company :" />
+      <JFXComboBox fx:id="company" layoutX="331.0" layoutY="145.0" prefHeight="25.0" prefWidth="193.0" />
+      <JFXButton buttonType="RAISED" layoutX="324.0" layoutY="203.0" onAction="#ok" prefHeight="25.0" prefWidth="139.0" ripplerFill="#0d2aff" text="OK" />
+      <TableView fx:id="tabel" layoutX="108.0" layoutY="237.0" prefHeight="270.0" prefWidth="544.0">
+        <columns>
+          <TableColumn prefWidth="75.0" />
+          <TableColumn prefWidth="75.0" />
+        </columns>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="210.0" layoutY="525.0" onAction="#print" text="Print" />
+      <JFXButton fx:id="Close" buttonType="RAISED" layoutX="131.0" layoutY="525.0" onAction="#Close" text="Close" />
+      <JFXButton fx:id="save" buttonType="RAISED" layoutX="281.0" layoutY="525.0" onAction="#getSelectedRow" text="Save" />
+      <Separator layoutX="201.0" layoutY="97.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

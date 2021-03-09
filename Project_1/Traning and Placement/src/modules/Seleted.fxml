@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="558.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.SeletedController">
+   <children>
+      <Pane prefHeight="558.0" prefWidth="179.0" style="-fx-background-color: #48A5EE;" />
+      <Label layoutX="196.0" layoutY="33.0" prefHeight="49.0" prefWidth="433.0" text="Placed Students of Company's">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="105.0" prefHeight="27.0" prefWidth="145.0" text="Select Comapny :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comapny" layoutX="396.0" layoutY="106.0" prefWidth="150.0" />
+      <TableView fx:id="tabel" layoutX="196.0" layoutY="183.0" prefHeight="325.0" prefWidth="481.0" />
+      <Separator layoutX="196.0" layoutY="80.0" prefHeight="0.0" prefWidth="415.0" />
+      <Button fx:id="close" layoutX="224.0" layoutY="522.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="81.0" text="Close" />
+      <Button fx:id="ok" layoutX="370.0" layoutY="147.0" mnemonicParsing="false" onAction="#ok" prefHeight="25.0" prefWidth="81.0" text="Ok" />
+      <Button fx:id="print" layoutX="324.0" layoutY="522.0" mnemonicParsing="false" onAction="#print" prefHeight="25.0" prefWidth="81.0" text="Print" />
+   </children>
+</AnchorPane>
