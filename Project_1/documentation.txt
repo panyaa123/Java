@@ -1,0 +1,110 @@
+
+1)Create Database-
+   create database placement;
+
+2)Fetch Database-
+   Show Databases;
+
+3)Use Database-
+   use placement;
+
+4)Create Table-
+    create table students
+    (
+    id varchar(10) primary key,
+    name varchar(50) not null,
+    email varchar(40) not null,
+    phoneno varchar(10) unique key,
+    sem1 varchar(5),
+    sem2 varchar(5) ,
+    sem3 varchar(5) ,
+    sem4 varchar(5),
+    sem5 varchar(5),
+    sem6 varchar(5),
+    10th varchar(5),
+    12th varchar(5),
+    backlog varchar(5),
+    department varchar(50),
+    applicable nvarchar(50),
+    interview nvarchar(50),
+    selected nvarchar(50)
+    );
+
+5)Insertion Data into Table-
+   insert into reg_IT values(16042,'abc','abc12@gmail.com',91790327,45,45,45,45,45,0);
+
+6)Show content from table-
+    select * from reg_IT;
++-------+-------+--------+-----------+----------------+---------------+---------------+----------+
+| id       | name | email  | phoneno  | percentagef   | percentages | percentaget  | backlog |
++-------+-------+--------+-----------+----------------+---------------+---------------+----------+
+| 16042 | abc   | abc12@gmail.com | 91790327 |       45.22 |  55.5 | 75.55 |    0 |
++-------+-------+----------------------+----------+-------------+-------------+-------------+----+
+
+Modify table-
+
+alter table reg_IT add 10th double not null ;
+alter table reg_IT add 12th 
+
+placement =db
+reg_IT=table
+
+7)Create table company-
+      create table company
+    (
+      name varchar(50),
+      address varchar(50),
+      contact varchar(20),
+      website varchar(30)    
+    );
+8)create table company
+    create table n
+    (
+    id varchar(10) primary key,
+    name varchar(50) not null,
+    email varchar(40) not null,
+    phoneno varchar(10) unique key,
+    sem1 varchar(5),
+    sem2 varchar(5) ,
+    sem3 varchar(5) ,
+    sem4 varchar(5),
+    sem5 varchar(5),
+    sem6 varchar(5),
+    10th varchar(5),
+    12th varchar(5),
+    backlog varchar(5),
+    department varchar(50),
+    applicable nvarchar(50),
+    interview nvarchar(50),
+    selected nvarchar(50)
+    
+    );
+
+8) create table stud
+    (
+    id varchar(20) primary key,
+ name varchar(50) not null,
+email varchar(40) not null,
+  phoneno varchar(10),
+sem1 float(5),
+    sem2 float(5) ,
+    sem3 float(5) ,
+    sem4 float(5),
+    sem5 float(5),
+    sem6 float(5),
+    10th float(5),
+    12th float(5), 
+    backlog integer(5),
+    department varchar(50)
+);
+
+9) String sql1 = "insert into "+a+" values ('"+rs1.getString(1)+"','"+rs1.getString(2)+"','"+rs1.getString(3)+"','"+rs1.getString(4)+"',"+rs1.getFloat(5)+","+rs1.getFloat(6)+","+rs1.getFloat(7)+","+rs1.getFloat(8)+","+rs1.getFloat(9)+","+rs1.getFloat(10)+","+rs1.getFloat(11)+","+rs1.getFloat(12)+","+rs1.getInt(13)+",'"+rs1.getString(14)+"'"+"'"+rs1.getString(15)+",'"+"c"+"'"+rs1.getString(17)+"'")";
+         
+10)
+ 
+String x=rs1.getString(15);
+String y=rs1.getString(16);
+String z=rs1.getString(17);
+
+11)
+sql="select count(*)from 
