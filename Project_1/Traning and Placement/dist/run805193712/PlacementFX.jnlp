@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PlacementFX.jnlp">
+  <information>
+    <title>PlacementFX</title>
+    <vendor>danml</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PlacementFX.jar" size="189619" download="eager" />
+    <jar href="lib\dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2350676" download="eager" />
+    <jar href="lib\log4j-1.2.13.jar" size="358180" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\poi-3.7.jar" size="1675036" download="eager" />
+    <jar href="lib\poi-ooxml-3.6.jar" size="412783" download="eager" />
+    <jar href="lib\poi-ooxml-schemas-3.6.jar" size="3774332" download="eager" />
+    <jar href="lib\stax-api-1.0.1.jar" size="26514" download="eager" />
+    <jar href="lib\xmlbeans-2.3.0.jar" size="2666695" download="eager" />
+    <jar href="lib\xmlbeans-xpath-2.6.0.jar" size="6502" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PlacementFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="placementfx.PlacementFX"  name="PlacementFX" />
+  <update check="always"/>
+</jnlp>
