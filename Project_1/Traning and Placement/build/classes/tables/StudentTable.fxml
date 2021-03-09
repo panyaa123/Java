@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="438.0" prefWidth="650.0" style="-fx-background-color: white;" stylesheets="@../placementfx/style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="tables.StudentTableController">
+   <children>
+      <TableView fx:id="tableStudents" layoutX="5.0" prefHeight="432.0" prefWidth="639.0" />
+   </children>
+</AnchorPane>

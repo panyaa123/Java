@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.TrainingController">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="81.0" prefWidth="698.0" style="-fx-background-color: #0081FF;">
+         <children>
+            <Label layoutX="208.0" layoutY="23.0" prefHeight="33.0" prefWidth="296.0" text="Training and Placement">
+               <font>
+                  <Font name="Calibri Bold Italic" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0081ff" height="79.0" layoutX="90.0" layoutY="41.0" rotate="-45.0" stroke="WHITE" strokeType="INSIDE" width="79.0" />
+      <Label layoutX="128.0" layoutY="184.0" text="Name Of Faculty :-">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="300.0" text="Gmail Address :-">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="336.0" text="Contact :-">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="367.0" text="Location :-">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="262.0" text="Department :-">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="226.0" text="Faculty Incharge :-">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField editable="false" layoutX="282.0" layoutY="180.0" prefHeight="25.0" prefWidth="192.0" text="T &amp; P" />
+      <JFXTextField editable="false" layoutX="282.0" layoutY="258.0" prefHeight="25.0" prefWidth="192.0" text="Information Technology" />
+      <JFXTextField editable="false" layoutX="282.0" layoutY="332.0" prefHeight="25.0" prefWidth="192.0" text="7020186716" />
+      <JFXTextField editable="false" layoutX="282.0" layoutY="296.0" prefHeight="25.0" prefWidth="192.0" text="patu32kanherkar145@gmail.com" />
+      <JFXTextField editable="false" layoutX="282.0" layoutY="222.0" prefHeight="25.0" prefWidth="192.0" text="Dr.P.P.Karde" />
+      <JFXTextField editable="false" layoutX="282.0" layoutY="363.0" prefHeight="25.0" prefWidth="192.0" text="Gadge Nager . Amravati" />
+      <JFXButton fx:id="goback" buttonType="RAISED" layoutX="274.0" layoutY="421.0" onAction="#closeButton" prefHeight="25.0" prefWidth="95.0" text="Go Back">
+         <font>
+            <Font size="14.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

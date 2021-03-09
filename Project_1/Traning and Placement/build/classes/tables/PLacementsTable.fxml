@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="697.0" stylesheets="@../placementfx/style.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tables.PLacementsTableController">
+   <children>
+      <TableView fx:id="tablePlacements" layoutX="6.0" layoutY="-1.0" prefHeight="463.0" prefWidth="683.0" tableMenuButtonVisible="true" />
+   </children>
+</AnchorPane>

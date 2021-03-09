@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.AboutController">
+   <children>
+      <AnchorPane prefHeight="193.0" prefWidth="482.0" style="-fx-background-color: #0081FF;">
+         <children>
+            <Label layoutX="24.0" layoutY="18.0" prefHeight="25.0" prefWidth="328.0" text="TRAINING AND PLACEMENT SYSTEM" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Roboto Medium" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="83.0" layoutY="53.0" prefHeight="126.0" prefWidth="335.0" text="This is a simple javafx desktop app that helps to automate processes that students go through when being enrolled for training and internships.It automates scheduling,placement,course registrations,database back ups and restorations,en et al.Subscribe for my channel to get more of these.You can hire me to do a sample like this one at a friendly cost." textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Roboto Regular" size="12.0" />
+               </font>
+            </Label>
+            <MaterialDesignIconView fx:id="iconClose" fill="WHITE" glyphName="CLOSE" layoutX="444.0" layoutY="29.0" onMouseClicked="#closeStage" size="22.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="36.0" layoutY="212.0" prefHeight="25.0" prefWidth="166.0" text="Developer Profile" textFill="#6b6b6b" underline="true">
+         <font>
+            <Font name="Roboto Medium" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="249.0" prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #6a7d9a;" text="Pranit Karale" />
+      <VBox layoutX="138.0" layoutY="278.0" prefHeight="133.0" prefWidth="207.0">
+         <children>
+            <Label prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 14; -fx-text-fill: #6a7d9a;" text="karalepranit@gmail.com">
+               <graphic>
+                  <MaterialDesignIconView fill="#7387a8" glyphName="GMAIL" size="17.0" wrappingWidth="20.666692197322845" />
+               </graphic>
+            </Label>
+            <Label prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 14; -fx-text-fill: #6a7d9a;" text="Software developer">
+               <graphic>
+                  <MaterialDesignIconView fill="#7387a8" glyphName="SHOPPING" size="17.0" wrappingWidth="22.000005185604095" />
+               </graphic>
+            </Label>
+            <Label prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 14; -fx-text-fill: #6a7d9a;" text="Amaravati, India">
+               <graphic>
+                  <MaterialDesignIconView fill="#7387a8" glyphName="MAP_MARKER" size="17.0" wrappingWidth="20.666631162166595" />
+               </graphic>
+            </Label>
+            <Label prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 14; -fx-text-fill: #6a7d9a;" text="+9765370793">
+               <graphic>
+                  <MaterialDesignIconView fill="#7387a8" glyphName="PHONE" size="17.0" wrappingWidth="20.666631162166595" />
+               </graphic>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
